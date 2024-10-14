@@ -193,4 +193,6 @@ async function downloadBlob(blobName, filePath) {
 //     downloadBlob
 // }
 
-listObjects().then(() => console.log("Done")).catch((ex) => console.log(ex.message));
+// listObjects().then(() => console.log("Done")).catch((ex) => console.log(ex.message));
+
+uploadBlob("test-vpn.pfd", "./sample-test.pdf").then(() => console.log("Done")).catch((ex) => console.log(ex.message)); 
