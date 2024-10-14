@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { BlobServiceClient } = require("@azure/storage-blob");
 const {ClientSecretCredential} = require("@azure/identity");
 const { v1: uuidv1 } = require("uuid");
