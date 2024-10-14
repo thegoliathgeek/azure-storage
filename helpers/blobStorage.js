@@ -185,9 +185,11 @@ async function downloadBlob(blobName, filePath) {
 // listObjects().then(() => console.log("Done")).catch((ex) => console.log(ex.message));
 
 // downloadBlob("quickstartd2a6c050-71a9-11ef-933c-7f0d8e894393.pdf", "./downloaded.pdf").then(() => console.log("Done")).catch((ex) => console.log(ex.message));
-module.exports = {  
-    listObjects,
-    deleteBlob,
-    uploadBlob,
-    downloadBlob
-}
+// module.exports = {  
+//     listObjects,
+//     deleteBlob,
+//     uploadBlob,
+//     downloadBlob
+// }
+
+listObjects().then(() => console.log("Done")).catch((ex) => console.log(ex.message));
